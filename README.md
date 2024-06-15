@@ -1,2 +1,2 @@
-# Supermarket-Software
-Akrofttechnologies supermarket software repository
+# Supermarket-Software - AKROFT TECH 🇰🇪
+Akrofttechnologies supermarket software task repository
