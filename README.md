@@ -90,9 +90,10 @@ Performance<br>
 Languages: HTML, CSS, JavaScript <br>
 ```Backend:```<br>
 Framework: Django<br>
-Database: MongoDB (Use pymongo for integration)<br>
+Database: MongoDB (pymongo for integration)<br>
 ```Authentication:```
-Service: Clerk<br>
+Service:<br>
+    -Clerk<br>
 ```DevOps:```<br>
 Containerization: Docker<br>
 CI/CD: GitHub Actions<br>

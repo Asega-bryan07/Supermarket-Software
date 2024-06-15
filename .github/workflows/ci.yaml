@@ -38,14 +38,14 @@ jobs:
 
       - name: Build Docker images
         run: |
-          docker build -t frontend ./frontend
-          docker build -t backend ./backend
+          docker build -t supermarket-frontend ./frontend
+          docker build -t supermarket-backend ./backend
 
       - name: Push Docker images
         env:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
         run: |
-          echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin 
-          docker push frontend
-          docker push backend
+          echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin
+          docker push supermarket-frontend
+          docker push supermarket-backend
