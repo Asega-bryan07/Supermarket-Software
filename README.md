@@ -69,65 +69,64 @@ supermarket-Software/
 ```
 
 ### 1. Requirements Analysis
-Functional Requirements:
-Supermarket Registration: Admin can register their supermarket.
-Login and Authorization: Used Clerk for authentication and authorization.
-Inventory Management: Add, update, delete, and view products.
-Point of Sale (POS) System: Process sales, generate receipts.
-Customer Management: Manage customer information.
-Employee Management: Manage employee details.
-Reporting and Analytics: Generate sales and inventory reports.
+Functional Requirements:<br>
+Supermarket Registration: Admin can register their supermarket.<br>
+Login and Authorization: Used Clerk for authentication and authorization.<br>
+Inventory Management: Add, update, delete, and view products.<br>
+Point of Sale (POS) System: Process sales, generate receipts.<br>
+Customer Management: Manage customer information.<br>
+Employee Management: Manage employee details.<br>
+Reporting and Analytics: Generate sales and inventory reports.<br>
 Online Order Processing: Manage online orders (if applicable).<br>
 
-Non-Functional Requirements:
-Scalability
-Security
-Reliability
-Maintainability
-Performance
+Non-Functional Requirements:<br>
+Scalability<br>
+Security<br>
+Reliability<br>
+Maintainability<br>
+Performance<br>
 ### 2. System Architecture
-Frontend:
+```Frontend:```<br>
 Languages: HTML, CSS, JavaScript <br>
-Backend:
-Framework: Django
+```Backend:```<br>
+Framework: Django<br>
 Database: MongoDB (Use pymongo for integration)<br>
-Authentication:
-Service: Clerk
-DevOps:
-Containerization: Docker
-CI/CD: GitHub Actions
+```Authentication:```
+Service: Clerk<br>
+```DevOps:```<br>
+Containerization: Docker<br>
+CI/CD: GitHub Actions<br>
 Code Quality: SonarQube <br><br>
 ### 3. Detailed Development Plan
-Frontend Development
-Setup Project Structure:
+Frontend Development<br>
+Setup Project Structure:<br>
 
-Create project folders and files for HTML, CSS, and JavaScript.
-Build Pages:
+Folders and files for HTML, CSS, and JavaScript.<br>
+Build Pages:<br>
 
-Home Page: Overview of supermarket features.
-Login/Register Page: Integrate Clerk for authentication.
-Dashboard: Admin panel for managing all functionalities.
-Inventory Management:
-Add/Edit/Delete Products Page
+Home Page: Overview of supermarket features.<br>
+Login/Register Page: Integrate Clerk for authentication.<br>
+Dashboard: Admin panel for managing all functionalities<br>
+Inventory Management:<br>
+Add/Edit/Delete Products Page<br>
 View Products Page
-
-POS System:
-Sales Processing Page
-Receipt Generation Page
-Customer Management:
-Add/Edit/Delete Customers Page
-View Customers Page
-Employee Management:
-Add/Edit/Delete Employees Page
-View Employees Page
-
-Reports:
-Sales Reports Page
-Inventory Reports Page
-Design Considerations:
-
-Tailwind CSS for responsive design.
-Clean and intuitive user interface.
-Modal dialogs for add/edit operations.
-Display data in tables with sorting and searching functionality.
-Backend Development
+<br>
+POS System:<br>
+Sales Processing Page<br>
+Receipt Generation Page<br>
+Customer Management:<br>
+Add/Edit/Delete Customers Page<br>
+View Customers Page<br>
+Employee Management:<br>
+Add/Edit/Delete Employees Page<br>
+View Employees Page<br>
+<br>
+Reports:<br>
+Sales Reports Page<br>
+Inventory Reports Page<br>
+<br>
+Design Considerations:<br>
+Tailwind CSS for responsive design.<br>
+Clean and intuitive user interface.<br>
+Modal dialogs for add/edit operations.<br>
+Display data in tables with sorting and searching functionality.<br>
